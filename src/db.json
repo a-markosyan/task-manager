@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "shortName": "Buy groceries",
+      "description": "Buy milk, bread, and eggs",
+      "completed": false,
+      "priority": 3
+    },
+    {
+      "id": 2,
+      "shortName": "Clean house",
+      "description": "Vacuum and dust all rooms",
+      "completed": true,
+      "priority": 2
+    },
+    {
+      "id": 2,
+      "shortName": "Clean house",
+      "description": "Vacuum and dust all rooms",
+      "completed": true,
+      "priority": 2
+    }
+  ]
+}
