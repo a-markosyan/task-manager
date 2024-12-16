@@ -1,10 +1,13 @@
-import "./App.css";
-import { useGetTasksQuery } from "./features/tasks/taskApi";
+import ListComponent from "./components/list/List";
+import style from "./App.module.scss";
 
-function App() {
-  const { data: tasks } = useGetTasksQuery();
-
-  return <div>aaaa</div>;
-}
+const App: React.FC = () => {
+  return (
+    <div className={style.app}>
+      <h1>Менеджер задач</h1>
+      <ListComponent />
+    </div>
+  );
+};
 
 export default App;
